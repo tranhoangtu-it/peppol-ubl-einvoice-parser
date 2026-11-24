@@ -1,0 +1,50 @@
+{
+  "name": "peppol-ubl-einvoice-parser",
+  "version": "1.0.0",
+  "description": "Zero-dependency ES-module & CLI parser for UBL 2.1, Peppol BIS Billing 3.0, XRechnung (UBL & CII), FatturaPA, and Vietnam GDT XML e-invoices.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "bin": {
+    "peppol-einvoice": "./bin/peppol-einvoice.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "einvoice",
+    "peppol",
+    "ubl",
+    "ubl-2.1",
+    "xrechnung",
+    "fatturapa",
+    "en16931",
+    "cii",
+    "vietnam-einvoice",
+    "xml-parser",
+    "accounting",
+    "zero-dependencies"
+  ],
+  "homepage": "https://ketoan-pro.tranhoangtu-it.workers.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranhoangtu-it/peppol-ubl-einvoice-parser.git"
+  },
+  "author": "Tran Hoang Tu <tranhoangtu.it@gmail.com>",
+  "license": "MIT"
+}
